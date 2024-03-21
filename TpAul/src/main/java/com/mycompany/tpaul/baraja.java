@@ -8,6 +8,6 @@ package com.mycompany.tpaul;
  *
  * @author litob
  */
-public class barajar {
-    
+public class baraja {
+
 }
