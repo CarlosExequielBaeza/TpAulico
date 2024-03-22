@@ -5,6 +5,7 @@
 package com.mycompany.tpaul;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 /**
@@ -21,8 +22,6 @@ public class Baraja {
         cartas= new ArrayList<>();
         monton= new ArrayList<>();
         this.cantCartasEntregadas= cantCartasEntregadas;
-        
-        
     }
     
 
@@ -33,8 +32,21 @@ public class Baraja {
     public void setCantCartasEntregadas(int cantCartasEntregadas) {
         this.cantCartasEntregadas = cantCartasEntregadas;
     }
+    public void inicializarBaraja(){
+        final String[] palos={"Oro","Basto","Espada","Copa"};
+        for (int i = 1; i <= 12; i++) {
+            if ( i != 8 && i !=9) {
+                
+            }
+        }
+    }
   
-  
-  
+    public void barajar(){
+        Collections.shuffle(cartas);
+    }
     
+    public void siguienteCarta(){
+        
+    }
+    //comentario
 }
