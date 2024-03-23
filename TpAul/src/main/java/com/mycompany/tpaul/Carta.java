@@ -8,13 +8,19 @@ package com.mycompany.tpaul;
  *
  * @author Pablo
  */
+
+enum Palo {
+    ESPADAS,
+    BASTOS,
+    OROS,
+    COPAS
+}
+
 public class Carta {
-
-public class carta {
     private int numero;
-    private String palo;
+    private Palo palo;
 
-    public carta(int numero, String palo) {
+    public Carta(int numero, Palo palo) {
         this.numero = numero;
         this.palo = palo;
     }
@@ -27,19 +33,8 @@ public class carta {
         this.numero = numero;
     }
 
-    public String getPalo() {
-        return palo;
-    }
-
-    public void setPalo(String palo) {
-        this.palo = palo;
-    }
-    
-    
     @Override
-    public String toString(){
-        return numero + " de " + palo;
+    public String toString() {
+        return "Carta " + this.numero + " de " + this.palo;
     }
-}
-
 }
