@@ -10,10 +10,10 @@ package com.mycompany.tpaul;
  */
 
 enum Palo {
-    ESPADAS,
-    BASTOS,
-    OROS,
-    COPAS
+    ESPADA,
+    BASTO,
+    ORO,
+    COPA
 }
 
 public class Carta {

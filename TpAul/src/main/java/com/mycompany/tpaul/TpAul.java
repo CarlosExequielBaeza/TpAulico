@@ -4,6 +4,8 @@
 
 package com.mycompany.tpaul;
 
+import java.util.List;
+
 /**
  *
  * @author litob
@@ -11,8 +13,12 @@ package com.mycompany.tpaul;
 public class TpAul {
 
     public static void main(String[] args) {
-        Baraja baraja = new Baraja();
-        baraja.barajar();
-        baraja.mostrarBaraja();
+         Baraja baraja = new Baraja();
+    baraja.barajar();
+    baraja.mostrarBaraja();
+    baraja.darCartas(4);
+    baraja.cartasMonton();
+    baraja.cartasDisponibles();
+    baraja.mostrarBaraja();
     }
 }
