@@ -11,6 +11,8 @@ package com.mycompany.tpaul;
 public class TpAul {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        Baraja baraja = new Baraja();
+        baraja.barajar();
+        baraja.mostrarBaraja();
     }
 }
